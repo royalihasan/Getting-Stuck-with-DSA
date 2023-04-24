@@ -10,7 +10,7 @@ int main(int argc, char const *argv[])
 
         for (int j = 0; j < col; j++)
         {
-            cout << "*";
+            cout << "O"<<" ";
         }
         cout << endl;
     }
