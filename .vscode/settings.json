@@ -6,6 +6,13 @@
         "istream": "cpp",
         "new": "cpp",
         "functional": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "atomic": "cpp",
+        "*.tcc": "cpp",
+        "cstdint": "cpp",
+        "random": "cpp",
+        "cmath": "cpp",
+        "numeric": "cpp",
+        "cstdlib": "cpp"
     }
 }

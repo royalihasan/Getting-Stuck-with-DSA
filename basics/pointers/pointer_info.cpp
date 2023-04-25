@@ -15,5 +15,10 @@ int main(int argc, char const *argv[])
     int *next = NULL;
     next = &data;
     cout << "Address of data var is :" << next << " and value is " << *next << endl;
+    // Pointer Arithmatic
+    cout << "next :" << next << endl;
+    next++;
+    cout << "next++ :" << next << endl;
+
     return 0;
 }
