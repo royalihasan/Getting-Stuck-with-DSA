@@ -13,6 +13,8 @@
         "random": "cpp",
         "cmath": "cpp",
         "numeric": "cpp",
-        "cstdlib": "cpp"
-    }
+        "cstdlib": "cpp",
+        "bit": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
