@@ -12,6 +12,7 @@ int fact(int n)
         ans = ans * c;
         c--;
     }
+
     return ans;
 }
 
@@ -23,7 +24,7 @@ int nCr(int n, int r)
 int main(int argc, char const *argv[])
 {
 
-    cout << nCr(13, 0) << endl;
+    cout << nCr(13, 2) << endl;
 
     return 0;
 }

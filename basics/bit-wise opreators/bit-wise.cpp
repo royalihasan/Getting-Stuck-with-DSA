@@ -3,7 +3,7 @@ using namespace std;
 int main(int argc, char const *argv[])
 {
     int x = 4;
-    int y = 5;
+    int y = 2;
     cout << "x and y"
          << ":" << (x & y) << endl;
     cout << "x or y"

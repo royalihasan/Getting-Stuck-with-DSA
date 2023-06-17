@@ -10,12 +10,15 @@ int main(int argc, char const *argv[])
     int answer = 0;
     while (N != 0)
     {
-        int bit;
-        bit = N & 1; // N %2;
-        answer = answer + (bit * pow(10, i));
+        int digit;
+        digit = N % 10; // last digit ;
+        answer = answer * 10 + digit;
         // remove the last Digit
+        N = N / 10; // Remove the last digit
         i++;
-        N = N >> 1; // N =N/2
     }
+    int range = INT32_MAX;
+    if (answer > range)
+        cout << "0";
     cout << answer << endl;
 }
